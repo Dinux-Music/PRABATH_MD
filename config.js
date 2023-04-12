@@ -10,18 +10,18 @@ global.email = 'sam@sec.live'
 global.github = 'https://github.com/prabathLK/PRABATH-MD'
 global.location = 'Sultanpur IN'
 global.gurl = 'https://instagram.com/' // add your username
-global.sudo = process.env.SUDO || '94762280384'
-global.devs = '94762280384';
+global.sudo = process.env.SUDO || '94717845122'
+global.devs = '94717845122';
 global.website = 'https://github.com/prabathLK/PRABATH-MD' //wa.me/+94762280384
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://i.imgur.com/H062oEI.jpeg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'http://i.imgur.com/a/LLrwrDV.jpeg'
 module.exports = {
   botname: process.env.BOT_NAME || '𝐒𝐞𝐜𝐤𝐭𝐨𝐫 𝐁𝐨𝐭𝐭𝐨',
   autosticker: process.env.AUTO_STICKER || 'false',
   autovoice: process.env.AUTO_VOICE || 'false',
   botapikey: process.env.BOTCAHX_API || '',
-  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/ad25b2227fa2a1a01b707.jpg',
-  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is prabath* 🎊',
-  ownername:process.env.OWNER_NAME || 'PRABATH',
+  alivepic: process.env.ALIVE_IMG || 'https://telegra.ph/file/49bf153e462a4749c3521.jpg',
+  alivemsj: process.env.ALIVE_MSJ || '*The bot developer is Dinuka* 🎊',
+  ownername:process.env.OWNER_NAME || 'Dinuka',
   sessionName: process.env.SESSION_ID || 'PUT-HERE',
   author: process.env.PACK_INFO.split(";")[0] || 'author', 
   auto_read_status : process.env.AUTO_READ_STATUS || 'false',
@@ -41,7 +41,7 @@ module.exports = {
   ALIVE_MESSAGE: process.env.ALIVE_MESSAGE || '',
   OPENAI_API_KEY: process.env.OPENAI_API_KEY || 'put-key-here',
   VERSION: process.env.VERSION === undefined ? 'v.0.0.3' : process.env.VERSION,
-  LANG: process.env.THEME|| 'PRABATH-MD',
+  LANG: process.env.THEME|| 'DINUX-MD',
   WORKTYPE: process.env.WORKTYPE === undefined ? 'public' : process.env.WORKTYPE
 };
 
